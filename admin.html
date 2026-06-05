@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RVY Admin Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="admin-page">
+    <div class="admin-shell">
+      <aside class="admin-sidebar">
+        <div class="admin-brand">RVY Admin</div>
+        <nav class="admin-nav">
+          <a href="#dashboard" class="active">Dashboard</a>
+          <a href="#user-management">User Management</a>
+          <a href="#brand-management">Brand Management</a>
+          <a href="#product-management">Product Management</a>
+          <a href="#service-management">Service Management</a>
+          <a href="#order-management">Order Management</a>
+          <a href="#support">Customer Support</a>
+          <a href="#gallery-upload">Gallery Upload</a>
+          <a href="#analytics">Analytics</a>
+        </nav>
+      </aside>
+      <main class="admin-main">
+        <header class="admin-header">
+          <div>
+            <h1>Dashboard</h1>
+            <p>
+              Manage brands, products, orders, users, and customer requests from
+              one panel.
+            </p>
+          </div>
+        </header>
+
+        <section id="dashboard" class="admin-section">
+          <div class="admin-cards">
+            <article class="admin-card">
+              <h3>Total Brands</h3>
+              <p>12</p>
+            </article>
+            <article class="admin-card">
+              <h3>Active Products</h3>
+              <p>86</p>
+            </article>
+            <article class="admin-card">
+              <h3>Open Orders</h3>
+              <p>17</p>
+            </article>
+            <article class="admin-card">
+              <h3>Subscribers</h3>
+              <p>438</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="user-management" class="admin-section">
+          <h2>User Management</h2>
+          <div class="table-card">
+            <table>
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Email</th>
+                  <th>Role</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Rohit Sharma</td>
+                  <td>rohit@rvysolutions.com</td>
+                  <td>Admin</td>
+                  <td>Active</td>
+                </tr>
+                <tr>
+                  <td>Anjali Patel</td>
+                  <td>anjali@client.com</td>
+                  <td>Customer</td>
+                  <td>Active</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section id="brand-management" class="admin-section">
+          <h2>Brand Management</h2>
+          <div class="dashboard-grid">
+            <article class="dashboard-card">
+              <h3>Brand List</h3>
+              <p>
+                Manage brand pages, logos, and descriptions across multiple
+                business lines.
+              </p>
+            </article>
+            <article class="dashboard-card">
+              <h3>Status</h3>
+              <p>Activate or archive brands with a single click.</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="product-management" class="admin-section">
+          <h2>Product Management</h2>
+          <div class="dashboard-grid">
+            <article class="dashboard-card">
+              <h3>Product Catalog</h3>
+              <p>
+                Track inventory, categories, pricing, and images for products.
+              </p>
+            </article>
+            <article class="dashboard-card">
+              <h3>Category Settings</h3>
+              <p>Organize products using categories and display filters.</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="service-management" class="admin-section">
+          <h2>Service Management</h2>
+          <div class="dashboard-grid">
+            <article class="dashboard-card">
+              <h3>Service Catalog</h3>
+              <p>
+                Maintain service pricing, descriptions, and featured images.
+              </p>
+            </article>
+            <article class="dashboard-card">
+              <h3>Availability</h3>
+              <p>Set active/inactive status for seasonal service offerings.</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="order-management" class="admin-section">
+          <h2>Order Management</h2>
+          <div class="table-card">
+            <table>
+              <thead>
+                <tr>
+                  <th>Order ID</th>
+                  <th>Customer</th>
+                  <th>Status</th>
+                  <th>Total</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>#1023</td>
+                  <td>Prakash Y.</td>
+                  <td>Processing</td>
+                  <td>$620</td>
+                </tr>
+                <tr>
+                  <td>#1024</td>
+                  <td>Meera G.</td>
+                  <td>Completed</td>
+                  <td>$150</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section id="support" class="admin-section">
+          <h2>Customer Support</h2>
+          <div class="dashboard-grid">
+            <article class="dashboard-card">
+              <h3>Contact Messages</h3>
+              <p>
+                Review unread inquiries and reply quickly from the admin panel.
+              </p>
+            </article>
+            <article class="dashboard-card">
+              <h3>Newsletter Subscribers</h3>
+              <p>
+                Manage subscriber status, unsubscribe requests, and campaigns.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section id="analytics" class="admin-section">
+          <h2>Analytics & Reports</h2>
+          <div class="dashboard-grid">
+            <article class="dashboard-card">
+              <h3>Traffic & Conversions</h3>
+              <p>
+                Monitor visits, conversions, and page performance at a glance.
+              </p>
+            </article>
+            <article class="dashboard-card">
+              <h3>Inventory Reports</h3>
+              <p>Track stock levels, product demand, and order volume.</p>
+            </article>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

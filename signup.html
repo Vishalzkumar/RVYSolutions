@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up | RVY Solutions</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="auth-page">
+    <div class="auth-card">
+      <a class="brand" href="index.html">RVY SOLUTIONS</a>
+      <h1>Create a new account</h1>
+      <p>
+        Sign up to manage your profile, products, services, and customer orders.
+      </p>
+      <form class="auth-form" id="authForm" data-type="signup">
+        <label for="signupName">Full name</label>
+        <input type="text" id="signupName" name="name" required />
+
+        <label for="signupEmail">Email address</label>
+        <input type="email" id="signupEmail" name="email" required />
+
+        <label for="signupPassword">Password</label>
+        <input type="password" id="signupPassword" name="password" required />
+
+        <label for="signupConfirm">Confirm password</label>
+        <input
+          type="password"
+          id="signupConfirm"
+          name="confirmPassword"
+          required
+        />
+
+        <div class="auth-actions">
+          <button class="btn btn-primary" type="submit">Sign Up</button>
+          <a href="login.html">Already have an account?</a>
+        </div>
+      </form>
+      <div class="auth-footer">
+        Already registered? <a href="login.html">Login here</a>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
